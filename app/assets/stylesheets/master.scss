@@ -1,5 +1,5 @@
 @import "bootstrap";
-@import url('https://fonts.googleapis.com/css?family=Bangers|Cabin+Sketch|Catamaran|Hind+Siliguri|Kalam|Source+Sans+Pro');
+@import url('https://fonts.googleapis.com/css?family=Cabin+Sketch|Gloria+Hallelujah|Luckiest+Guy|Monoton|Orbitron');
 
 .booyah-box {
   -moz-box-shadow: 1px 1px 2px 0 #d0d0d0;
@@ -26,4 +26,9 @@ body {
 .navbar {
   background: image_url('black_lozenge.png');
   box-shadow: 0px 1px 3px #2a2a2a;
+}
+
+.navbar-inverse .navbar-brand {
+  color: #C6ED2C;
+  font-family: 'Luckiest Guy', cursive;
 }
